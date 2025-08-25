@@ -90,12 +90,15 @@ python main.py
 ```
 
 ## Estrutura do Projeto
-
-´´´
-├── Automação - esocial
-|   ├──
-|
-´´´
+O projeto está organizado da seguinte forma:
+```
+├── Automação - esocial/
+|   ├── EFETIVO - EXEMPLO.xlsX   # Arquivo de dados de exemplo.
+|   ├── LICENSE                  # Licença do projeto.
+|   ├── main.py                  # O script principal de automação.
+|   ├── README.md                # Este arquivo de documentação.
+|   └── requeriments.txt         # Dependências do projeto.
+```
 
 
 
