@@ -1,23 +1,23 @@
-import time                                                         #|                                    
-import os                                                           #|              Bibliotecas utilizadas
-import undetected_chromedriver as uc                                #|     
-from selenium.webdriver.common.by import By                         #|      |       OBS: façam a instalação se forem usar        
-from selenium.webdriver.chrome.options import Options               #| -----             e se estiverem com duvidas de como instalar
-from selenium.webdriver.support.ui import WebDriverWait             #| -----             podem acompanhar a documentação no
-from selenium.webdriver.support import expected_conditions as EC    #|      |            github.
-from openpyxl import load_workbook                                  #|                   
-import glob                                                         #|                      
+import time                                                                   
+import os                                       
+import undetected_chromedriver as uc          
+from selenium.webdriver.common.by import By       
+from selenium.webdriver.chrome.options import Options     
+from selenium.webdriver.support.ui import WebDriverWait             
+from selenium.webdriver.support import expected_conditions as EC          
+from openpyxl import load_workbook                                               
+import glob                                                                       
 
 # --- CONFIGURAÇÃO DA PASTA DE DOWNLOAD ---
 default_download_dir = r"C:\Users\Pierre\Downloads"  # Essa variavel é utilizada para dizer onde o arquivo irá ser baixado.
 
 # --- CONFIGURAÇÃO DAS OPÇÕES DO CHROME ---
-chrome_options = Options()                                      #|           Essa parte foi feita basicamente para "desbugar"   
-prefs = {                                                       #|   |       na hora de baixar pois estava acontecendo de baixar
-    "download.default_directory": default_download_dir,         #|---        o arquivo e esse download não ocorrer.
-    "download.prompt_for_download": False,                      #|---
-    "download.directory_upgrade": True,                         #|   |     
-    "safebrowsing.enabled": True                                #|
+chrome_options = Options()                     
+prefs = {                                                 
+    "download.default_directory": default_download_dir,   
+    "download.prompt_for_download": False,                    
+    "download.directory_upgrade": True,                       
+    "safebrowsing.enabled": True                             
 }
 chrome_options.add_experimental_option("prefs", prefs)
 
