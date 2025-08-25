@@ -24,7 +24,7 @@ Este projeto foi criado para **simplificar e agilizar o processo de download** d
 - Undetected-chromedriver
 - Openpyxl
 ---
-### Como Usar
+### Instalações
 ---
 Para rodar este script, certifique-se de que o Python e as bibliotecas necessárias estão instalados em sua máquina. Caso não tenha nada instalado, deixarei o link para o download do Python, além do comando para instalar as dependências diretamente pelo terminal do VS Code.
 
@@ -82,7 +82,7 @@ pip install undetected-chromedriver
 pip install openpyxl
  ```
 
-
+## Como executar
 
 
 
