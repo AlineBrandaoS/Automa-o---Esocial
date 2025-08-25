@@ -84,8 +84,18 @@ pip install openpyxl
 
 ## Como executar
 
+Abra o seu terminal no diretorio do projeto e digite:
+```
+python main.py
+```
 
+## Estrutura do Projeto
 
+´´´
+├── Automação - esocial
+|   ├──
+|
+´´´
 
 
 
